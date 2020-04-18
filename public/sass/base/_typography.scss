@@ -8,3 +8,42 @@ body {
     font-family: $default-p-font;
     font-size: $default-font-size;
 }
+
+.heading-primary {
+    color: $color-grey-dark;
+    text-transform: uppercase;
+    
+    backface-visibility: hidden;
+    margin-bottom: 5rem;
+
+    &--main {
+        display: block;
+        font-size: 20rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+    
+        animation-name: moveInTop;
+        animation-duration: 1s;
+    }
+    
+    &--sub-1 {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1rem;
+        animation: moveInRight 1s ease-out;
+        color: $color-primary-dark;
+        /* animation-iteration-count: 3; */
+        /* animation-delay: 3s; */
+    }
+
+    &--sub-2 {
+        display: block;
+        font-size: 4rem;
+        font-weight: 900;
+        letter-spacing: 1.75rem;
+        animation: moveInBottom 1.5s ease-out;
+        animation-delay: 1.2s;
+        animation-fill-mode: both;
+    }
+}
