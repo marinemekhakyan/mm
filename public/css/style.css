@@ -1,2 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #f7f4f5;
+  border-top: 1px solid #B1D600;
+  padding: 2rem; }
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.7; }
+
 .paragraph {
-  font-family: "Source Code Pro", monospace; }
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem; }
