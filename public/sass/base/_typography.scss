@@ -28,19 +28,20 @@ body {
     
     &--sub-1 {
         display: block;
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 3rem;
+        font-weight: 900;
         letter-spacing: 1rem;
         animation: moveInRight 1s ease-out;
         color: $color-primary-dark;
+        margin-bottom: 5%;
         /* animation-iteration-count: 3; */
         /* animation-delay: 3s; */
     }
 
     &--sub-2 {
         display: block;
-        font-size: 4rem;
-        font-weight: 900;
+        font-size: 2rem;
+        font-weight: bolder;;
         letter-spacing: 1.75rem;
         animation: moveInBottom 1.5s ease-out;
         animation-delay: 1.2s;

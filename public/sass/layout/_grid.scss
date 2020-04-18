@@ -19,4 +19,19 @@
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
     }
+
+    .col-2 {
+        // background-color: #E4002B;
+        height: 95vh;
+        border-radius: 4px;
+
+        &__icon {
+            font-size: 3rem;
+            // margin-bottom: .5rem;
+            display: inline-block;
+            background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }
 }
