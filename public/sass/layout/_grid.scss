@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    margin: 0 auto; //used to center block elements inside of other block elements. Means top and bottom are 0, and right and left are auto.
+    margin: 0 auto;
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
