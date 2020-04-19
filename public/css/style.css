@@ -141,7 +141,7 @@ body {
     text-align: left; }
   .header__left-menu {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(248, 72, 94, 0.2), #f8485e), url("../../../assets/m.JPG");
+    background-image: linear-gradient(to right bottom, rgba(248, 72, 94, 0.5), #f8485e), url("../../../assets/m.JPG");
     border-radius: 5px;
     animation: moveInRight 2s ease-out;
     animation-delay: 1.4s;
