@@ -152,7 +152,7 @@ body {
     text-align: left; }
   .header__left-menu {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(248, 72, 94, 0.5), #f8485e), url("../../../assets/m.JPG");
+    background-image: linear-gradient(to right bottom, rgba(248, 72, 94, 0.3), #f8485e), url("../../../assets/m.JPG");
     border-radius: 5px;
     animation: moveInRight 2s ease-out;
     animation-delay: 1.4s;
@@ -163,4 +163,8 @@ body {
       margin-top: 1rem;
       animation: moveInRight 1s ease-out;
       animation-delay: 3s;
-      animation-fill-mode: both; }
+      animation-fill-mode: both;
+      color: #373A36;
+      font-size: 1.8rem;
+      font-family: "Source Code Pro", monospace;
+      font-weight: bolder; }
