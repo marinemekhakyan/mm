@@ -57,6 +57,10 @@ body {
   border-top: 1px solid #B1D600;
   padding: 3rem; }
 
+hr {
+  height: 1px;
+  background-color: #B1D600; }
+
 body {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -109,6 +113,13 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
+.skills-icon {
+  width: 10%; }
+
+.skills-blinker {
+  width: 4rem;
+  margin-left: 1rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -146,3 +157,10 @@ body {
     animation: moveInRight 2s ease-out;
     animation-delay: 1.4s;
     animation-fill-mode: both; }
+    .header__left-menu--items {
+      margin-left: 2rem; }
+    .header__left-menu--technologies {
+      margin-top: 1rem;
+      animation: moveInRight 1s ease-out;
+      animation-delay: 3s;
+      animation-fill-mode: both; }

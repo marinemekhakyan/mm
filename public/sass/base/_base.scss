@@ -17,3 +17,8 @@ body {
     border-top: 1px solid $color-primary;
     padding: 3rem;
 }
+
+hr {
+    height: 1px;
+    background-color: $color-primary;
+}

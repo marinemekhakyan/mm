@@ -33,5 +33,15 @@
         animation-delay: 1.4s;
         animation-fill-mode: both;
 
+        &--items {
+            margin-left: 2rem;
+        }
+
+        &--technologies {
+            margin-top: 1rem;
+            animation: moveInRight 1s ease-out;
+            animation-delay: 3s;
+            animation-fill-mode: both;
+        }
     }
 }
