@@ -188,6 +188,9 @@ body {
   top: 0;
   text-decoration: none; }
 
+.email:active i, .github:active i, .linkedin:active i {
+  color: #373A36; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }

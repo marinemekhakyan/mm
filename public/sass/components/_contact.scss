@@ -5,3 +5,11 @@
     top: 0;
     text-decoration: none;
 }
+
+.email, .github, .linkedin {
+    &:active {
+        i {
+            color: $color-grey-dark;
+        }
+    }
+}
