@@ -5,11 +5,11 @@
         text-align: left;
     }
 
-    &__left-menu {
+    &__right-menu {
         height: 95vh;
         background-image:linear-gradient(to right bottom,
-        rgba($color-watermelon, 0.3), 
-        rgba($color-watermelon, 2)),
+        rgba($color-grey-light, 0.3), 
+        rgba($color-grey-light, 2)),
         url('../../../assets/m.JPG');
         border-radius: 5px;
         animation: moveInRight 2s ease-out;
