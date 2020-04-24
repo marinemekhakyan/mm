@@ -12,6 +12,10 @@
     font-size: $default-font-size;
     width: 90%;
     color: $color-primary;
+    animation: moveInBottom 1s ease-out;
+    animation-delay: 4.2s;
+    animation-fill-mode: both;
+
 }
 
     &:hover {
