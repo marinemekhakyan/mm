@@ -3,29 +3,30 @@
     &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1rem 2rem;
-    display: inline-block;
-    border-radius: .5rem;
-    transition: all .2s;
-    position: relative;
     font-family: $default-p-font;
-    font-size: $default-font-size;
-    width: 90%;
-    color: $color-primary;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: .4rem;
+    // font-size: $default-font-size;
+    color: $color-primary-dark;
+    padding: 1rem 2rem;
+    border-radius: 4rem;
+    position: relative;
     animation: moveInBottom 1s ease-out;
     animation-delay: 4.2s;
     animation-fill-mode: both;
-
+    transition: all .2s;
+    display: inline;
 }
 
     &:hover {
-        // transform: translateY(-3px);
-        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+        transform: translateY(-7px);
+        box-shadow: 0 1rem 2rem rgba($color-primary-dark, .2);
         /* X direction, Y direction, blur, color */
-        // &::after {
-        //     transform: scaleX(1.5) scaleY(1.6);
-        //     opacity: 0;
-        // }
+        &::after {
+            transform: scaleX(1.5) scaleY(1.6);
+            opacity: 0;
+        }
     }
     
     &:active {
@@ -35,12 +36,12 @@
     }
     
     &--white {
-        background-color: $color-grey-dark;
+        background-color: $color-grey-light;
         color: $color-grey-dark;
 
-        // &::after {
-        //     background-color: $color-white;
-        // }
+        &::after {
+            background-color: $color-white;
+        }
     }
     
     &::after {

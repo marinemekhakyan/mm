@@ -124,30 +124,37 @@ body {
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
-  padding: 1rem 2rem;
-  display: inline-block;
-  border-radius: .5rem;
-  transition: all .2s;
-  position: relative;
   font-family: "DM Sans", sans-serif;
-  font-size: 1.6rem;
-  width: 90%;
-  color: #B1D600;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: .4rem;
+  color: #84BD00;
+  padding: 1rem 2rem;
+  border-radius: 4rem;
+  position: relative;
   animation: moveInBottom 1s ease-out;
   animation-delay: 4.2s;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+  transition: all .2s;
+  display: inline; }
 
 .btn:hover {
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-7px);
+  box-shadow: 0 1rem 2rem rgba(132, 189, 0, 0.2);
   /* X direction, Y direction, blur, color */ }
+  .btn:hover::after {
+    transform: scaleX(1.5) scaleY(1.6);
+    opacity: 0; }
 
 .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn--white {
-  background-color: #373A36;
+  background-color: #f7f4f5;
   color: #373A36; }
+  .btn--white::after {
+    background-color: #fff; }
 
 .btn::after {
   content: '';
@@ -196,7 +203,7 @@ body {
 
 .composition {
   position: relative;
-  margin-bottom: 20rem; }
+  margin-bottom: 22rem; }
   .composition__photo {
     width: 25%;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
@@ -242,10 +249,10 @@ body {
       animation-delay: 4s;
       animation-fill-mode: both; }
     .composition__photo:hover {
-      outline: 0.5rem solid #B1D600;
-      transform: scale(1.05) translateY(-0.5rem);
+      outline: 0.3rem solid #B1D600;
+      transform: scale(2.05) translateY(-2rem);
       box-shadow: 0 2.5rem 3.5rem rgba(0, 0, 0, 0.5);
-      z-index: 20; }
+      z-index: 30; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
