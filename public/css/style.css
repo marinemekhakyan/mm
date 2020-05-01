@@ -300,14 +300,14 @@ body {
     .card__picture--4 {
       background-image: linear-gradient(to right bottom, #D4EC8E, #84BD00), url(../../../assets/code.gif); }
   .card__heading {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     text-align: right;
     color: #fff;
     position: absolute;
     top: 12rem;
-    right: 2rem;
+    right: .001rem;
     width: 75%; }
   .card__heading-span {
     padding: 1rem 1.5rem;
@@ -421,4 +421,5 @@ body {
 .section-work {
   margin-top: 6rem;
   padding: 3rem;
-  background-image: linear-gradient(to right bottom, rgba(36, 41, 46, 0.7), #24292e); }
+  background-image: linear-gradient(to bottom, rgba(36, 41, 46, 0.5), #24292e);
+  border-radius: 7px; }

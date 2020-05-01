@@ -86,14 +86,14 @@
     }
 
     &__heading {
-        font-size: 2.8rem;
+        font-size: 2rem;
         font-weight: 300;
         text-transform: uppercase;
         text-align: right;
         color: $color-white;
         position: absolute;
         top: 12rem;
-        right: 2rem;
+        right: .001rem;
         width: 75%;
     
     }
