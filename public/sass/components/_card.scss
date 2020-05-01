@@ -78,6 +78,11 @@
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
             url(../../../assets/code.gif);
         }
+
+        &--4 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
+            url(../../../assets/code.gif);
+        }
     }
 
     &__heading {
@@ -115,6 +120,12 @@
             rgba($color-primary-light, .85), 
             rgba($color-primary-dark, .85));
         }
+
+        &--4 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-primary-light, .85), 
+            rgba($color-primary-dark, .85));
+        }
     }
 
     &__details {
@@ -147,20 +158,10 @@
         text-align: center;
     }
 
-    &__price-box {
+    &__gif {
         text-align: center;
         color: $color-white;
         margin-bottom: 8rem;
-    }
-
-    &__price-only {
-        font-size: 1.4rem;
-        text-transform: uppercase;
-    }
-
-    &__price-value {
-        font-size: 6rem;
-        font-weight: 100;
     }
 
 
@@ -206,13 +207,6 @@
             padding: 7rem 4rem 4rem 4rem;
         }
 
-        &__price-box {
-            margin-bottom: 3rem;
-        }
-
-        &__price-value {
-            font-size: 3.5rem;
-        }
     }
 
 }

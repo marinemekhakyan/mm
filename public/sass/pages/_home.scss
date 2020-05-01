@@ -33,6 +33,11 @@
     }
 }
 
-.section-about {
+.section-work {
+    margin-top: 6rem;
+    padding: 3rem;
+    background-image:linear-gradient(to right bottom,
+    rgba($color-github, 0.7), 
+    rgba($color-github, 8));
 
 }
