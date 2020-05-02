@@ -297,7 +297,7 @@ body {
       background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url("../../../assets/tisktask.jpg");
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url("../../../assets/popart.jpg"); }
     .card__picture--4 {
       background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
@@ -316,13 +316,13 @@ body {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(212, 236, 142, 0.85), rgba(132, 189, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(132, 189, 0, 0.85), rgba(132, 189, 0, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(212, 236, 142, 0.85), rgba(132, 189, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(132, 189, 0, 0.85), rgba(132, 189, 0, 0.85)); }
     .card__heading-span--3 {
-      background-image: linear-gradient(to right bottom, rgba(212, 236, 142, 0.85), rgba(132, 189, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(132, 189, 0, 0.85), rgba(132, 189, 0, 0.85)); }
     .card__heading-span--4 {
-      background-image: linear-gradient(to right bottom, rgba(212, 236, 142, 0.85), rgba(132, 189, 0, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(132, 189, 0, 0.85), rgba(132, 189, 0, 0.85)); }
   .card__details {
     color: #fff; }
     .card__details--helpfull {
