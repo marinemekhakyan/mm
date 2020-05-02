@@ -65,22 +65,33 @@
         border-top-right-radius: 3px;
         
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark); 
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .5), 
+            rgba($color-white, .9)); 
             // url(../../../assets/code.gif)
         }
 
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark); 
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .5), 
+            rgba($color-white, .9)); 
             // url(../../../assets/code.gif)
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+
         }
 
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark); 
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .5), 
+            rgba($color-white, .9)); 
             // url(../../../assets/code.gif)
         }
 
         &--4 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark); 
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .5), 
+            rgba($color-white, .9)); 
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
             // url(../../../assets/code.gif)
         }
     }
@@ -130,6 +141,7 @@
 
     &__details {
         padding: 3rem;
+        color: $color-white;
 
         ul {
             list-style: none;
