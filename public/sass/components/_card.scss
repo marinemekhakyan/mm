@@ -153,6 +153,20 @@
             height: 100%;
         }
 
+        &--description {
+            color: $color-white;
+            padding: 3rem;
+            text-align: center;
+            font-family: $code-font;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+
+            &-technologies {
+                color: $color-primary-dark;
+            }
+
+        }
+
         ul {
             list-style: none;
             width: 80%;

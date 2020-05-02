@@ -328,6 +328,15 @@ body {
     .card__details--helpfull {
       width: 100%;
       height: 100%; }
+    .card__details--description {
+      color: #fff;
+      padding: 3rem;
+      text-align: center;
+      font-family: "Source Code Pro", monospace;
+      font-size: 1.3rem;
+      text-transform: uppercase; }
+      .card__details--description-technologies {
+        color: #84BD00; }
     .card__details ul {
       list-style: none;
       width: 80%;
