@@ -90,9 +90,9 @@
         &--4 {
             background-image: linear-gradient(to right bottom, 
             rgba($color-white, .1), 
-            rgba($color-white, .5)); 
+            rgba($color-white, .5)), 
+            url('../../../assets/doable.gif');
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-            // url(../../../assets/code.gif)
         }
     }
 

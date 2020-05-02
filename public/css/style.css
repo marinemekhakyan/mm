@@ -299,7 +299,7 @@ body {
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url("../../../assets/popart.jpg"); }
     .card__picture--4 {
-      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5));
+      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url("../../../assets/doable.gif");
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
   .card__heading {
     font-size: 2rem;
