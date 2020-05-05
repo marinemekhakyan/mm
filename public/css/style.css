@@ -131,14 +131,11 @@ body {
   padding: 1rem 2rem;
   border-radius: 4rem;
   position: relative;
-  animation: moveInBottom 1s ease-out;
-  animation-delay: 4.2s;
-  animation-fill-mode: both;
-  transition: all .2s;
-  display: inline; }
+  display: inline-block;
+  margin-top: 1rem; }
 
 .btn:hover {
-  transform: translateY(-7px);
+  transform: translateY(1px);
   box-shadow: 0 1rem 2rem rgba(132, 189, 0, 0.2);
   /* X direction, Y direction, blur, color */ }
   .btn:hover::after {
@@ -166,10 +163,6 @@ body {
   left: 0;
   z-index: -1;
   transition: all .4s; }
-
-.btn--animated {
-  animation: moveInBottom 1s ease-out .75s;
-  animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
@@ -410,7 +403,7 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 95vh; }
+  height: 100vh; }
   .header__text-box {
     text-align: left; }
   .header__right-menu {
@@ -436,4 +429,5 @@ body {
   margin-top: 6rem;
   padding: 3rem;
   background-image: linear-gradient(to bottom, rgba(10, 19, 73, 0.5), #080e2d), url("../../../assets/giphy.gif");
-  border-radius: 7px; }
+  border-radius: 7px;
+  height: 100vh; }
