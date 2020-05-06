@@ -377,7 +377,7 @@ body {
         padding: 7rem 4rem 4rem 4rem; } }
 
 .about {
-  width: 74%;
+  width: 100%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.6);
@@ -405,6 +405,9 @@ body {
     backface-visibility: hidden; }
   .about__text {
     transform: skewX(12deg); }
+  .about:hover .about__img {
+    transform: translateX(-4rem) scale(1);
+    filter: blur(3px) brightness(80%); }
 
 .row {
   max-width: 114rem;
