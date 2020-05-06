@@ -376,6 +376,37 @@ body {
         width: 100%;
         padding: 7rem 4rem 4rem 4rem; } }
 
+.about {
+  width: 74%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 3px;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  .about__shape {
+    width: 30rem;
+    height: 30rem;
+    background-color: aqua;
+    float: left;
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem) skewX(12deg);
+    position: relative; }
+  .about__img {
+    height: 80%;
+    width: 80%;
+    transform: translateX(-4rem) scale(1.4);
+    transition: all .5s;
+    align-self: center;
+    backface-visibility: hidden; }
+  .about__text {
+    transform: skewX(12deg); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -429,8 +460,8 @@ body {
   margin-top: 6rem;
   padding: 3rem;
   background-image: linear-gradient(to bottom, rgba(10, 19, 73, 0.5), #080e2d), url("../../../assets/giphy.gif");
-  border-radius: 7px;
-  height: 100vh; }
+  border-radius: 7px; }
 
 .section-about {
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }

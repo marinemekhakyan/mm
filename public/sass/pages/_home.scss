@@ -41,18 +41,10 @@
     rgba(#080E2D, 1)),
     url('../../../assets/giphy.gif');
     border-radius: 7px;
-    height: 100vh;
 
 }
 
 .section-about {
     height: 100vh;
-
-    &__image {
-
-    }
-
-    &__text {
-        
-    }
+    position: relative;
 }
