@@ -23,11 +23,10 @@
     }
 
     &__img {
-        height: 80%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
         transform: translateX(-4rem) scale(1.4);
         transition: all .5s;
-        align-self: center;
 
         backface-visibility: hidden;
     }
