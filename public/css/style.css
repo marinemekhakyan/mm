@@ -378,13 +378,14 @@ body {
 
 .about {
   width: 100%;
-  margin: 0 auto;
+  margin: 10rem auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #f7f4f5;
   border-radius: 3px;
-  padding: 6rem;
+  padding: 10rem;
   padding-left: 9rem;
   font-size: 1.6rem;
+  font-family: "DM Sans", sans-serif;
   transform: skewX(-12deg); }
   .about__shape {
     width: 30rem;
@@ -407,7 +408,7 @@ body {
     transform: skewX(12deg); }
   .about:hover .about__img {
     transform: translateX(-4rem) scale(1);
-    filter: blur(3px) brightness(80%); }
+    filter: blur(2px) brightness(80%); }
 
 .row {
   max-width: 114rem;

@@ -1,12 +1,13 @@
 .about {
     width: 100%;
-    margin: 0 auto;
+    margin: 10rem auto;
     box-shadow: 0 3rem 6rem rgba($color-black, .1);
-    background-color: rgba($color-white, .6);
+    background-color: rgba($color-grey-light, 1);
     border-radius: 3px;
-    padding: 6rem;
+    padding: 10rem;
     padding-left: 9rem;
     font-size: $default-font-size;
+    font-family: $default-p-font;
     transform: skewX(-12deg);
 
     &__shape {
@@ -37,6 +38,6 @@
 
     &:hover &__img {
         transform: translateX(-4rem) scale(1);
-        filter: blur(3px) brightness(80%);
+        filter: blur(2px) brightness(80%);
     }
 }
