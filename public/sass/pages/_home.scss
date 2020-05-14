@@ -36,10 +36,10 @@
 .section-work {
     margin-top: 6rem;
     padding: 3rem;
-    background-image:linear-gradient(to bottom,
-    rgba($color-github, .5), 
-    rgba(#080E2D, 1)),
-    url('../../../assets/giphy.gif');
+    background-image:linear-gradient(to top,
+    rgba($color-github, .7), 
+    rgba(#080E2D, 1));
+    // url('../../../assets/giphy.gif');
     border-radius: 7px;
 
 }
