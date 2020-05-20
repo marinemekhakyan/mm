@@ -54,7 +54,11 @@ html {
 body {
   box-sizing: border-box;
   border-top: 1px solid #B1D600;
-  padding: 3rem; }
+  padding: 5rem;
+  background: #B1D600; }
+
+.top-layer {
+  background-color: #f7f4f5; }
 
 hr {
   height: 1px;

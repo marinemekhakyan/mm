@@ -15,7 +15,12 @@ body {
     box-sizing: border-box;
     // background-color: $color-grey-light;
     border-top: 1px solid $color-primary;
-    padding: 3rem;
+    padding: 5rem;
+    background: $color-primary;
+}
+
+.top-layer {
+    background-color: $color-grey-light;
 }
 
 hr {
