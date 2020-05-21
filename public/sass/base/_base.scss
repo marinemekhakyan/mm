@@ -13,18 +13,17 @@ html {
 
 body {
     box-sizing: border-box;
-    // background-color: $color-grey-light;
-    border-top: 1px solid $color-primary;
-    padding: 5rem;
+    padding-left: 4rem;
     background: $color-primary;
+
 }
 
 .top-layer {
-    background-color: $color-grey-light;
+    background-color: #1a1a1a;
 }
 
 hr {
-    height: 1px;
-    background-color: $color-primary;
+    height: .5px;
+    background-color: $color-watermelon;
     margin: 1rem;
 }

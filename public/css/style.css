@@ -53,16 +53,15 @@ html {
 
 body {
   box-sizing: border-box;
-  border-top: 1px solid #B1D600;
-  padding: 5rem;
+  padding-left: 4rem;
   background: #B1D600; }
 
 .top-layer {
-  background-color: #f7f4f5; }
+  background-color: #1a1a1a; }
 
 hr {
-  height: 1px;
-  background-color: #B1D600;
+  height: .5px;
+  background-color: #F8485E;
   margin: 1rem; }
 
 body {
@@ -75,7 +74,7 @@ body {
   font-size: 1.6rem; }
 
 .heading-primary {
-  color: #373A36;
+  color: #bebebe;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 5rem; }
@@ -98,6 +97,7 @@ body {
     /* animation-delay: 3s; */ }
   .heading-primary--sub-2 {
     display: block;
+    color: #bebebe;
     font-size: 2rem;
     font-weight: bolder;
     letter-spacing: 1.75rem;
@@ -446,7 +446,6 @@ body {
     text-align: left; }
   .header__right-menu {
     height: 95vh;
-    background-image: linear-gradient(to right bottom, rgba(247, 244, 245, 0.1), #f7f4f5), url("../../../assets/m.JPG");
     border-radius: 8px;
     animation: moveInRight 2s ease-out;
     animation-delay: 1.4s;
@@ -458,7 +457,6 @@ body {
       animation: moveInRight 1s ease-out;
       animation-delay: 3s;
       animation-fill-mode: both;
-      color: #373A36;
       font-size: 1.8rem;
       font-family: "Source Code Pro", monospace;
       font-weight: bolder; }
@@ -466,7 +464,7 @@ body {
 .section-work {
   margin-top: 6rem;
   padding: 3rem;
-  background-image: linear-gradient(to top, rgba(10, 19, 73, 0.7), #080e2d);
+  background-image: linear-gradient(to top, rgba(29, 29, 29, 0.7), #1d1d1d);
   border-radius: 7px; }
 
 .section-about {
