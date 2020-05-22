@@ -1,11 +1,11 @@
 .header {
     height: 100vh;
     background-image:linear-gradient(to right bottom,
-    rgba(#1d1d1d, 0.7), 
+    rgba(#1d1d1d, 0.5), 
     rgba(#1d1d1d, 1)),
     url('../../../assets/v-5.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: relative;
 
 
@@ -43,12 +43,9 @@
 }
 
 .section-work {
-    margin-top: 6rem;
+    // margin-top: 6rem;
     padding: 3rem;
-    background-image:linear-gradient(to top,
-    rgba(#1d1d1d, .7), 
-    rgba(#1d1d1d, 1));
-    // url('../../../assets/giphy.gif');
+    background-color: $color-background;
     border-radius: 7px;
 
 }

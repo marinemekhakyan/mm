@@ -13,7 +13,7 @@ html {
 
 body {
     box-sizing: border-box;
-    padding-left: 4rem;
+    padding-left: 3rem;
     background: $color-primary;
 
 }
@@ -23,7 +23,6 @@ body {
 }
 
 hr {
-    height: .5px;
     background-color: $color-watermelon;
-    margin: 1rem;
+    margin: 1rem 0;
 }

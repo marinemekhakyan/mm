@@ -14,11 +14,11 @@ body {
     text-transform: uppercase;
     
     backface-visibility: hidden;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 
     &--main {
         display: block;
-        font-size: 20rem;
+        font-size: 15rem;
         font-weight: 400;
         letter-spacing: 1.5rem;
         animation-name: moveInTop;
@@ -46,5 +46,11 @@ body {
         animation: moveInBottom 1.5s ease-out;
         animation-delay: 1.2s;
         animation-fill-mode: both;
+    }
+
+    &--linguist {
+        font-family: 'Bad Script', cursive;
+        font-size: 1.3rem;
+        margin: .8rem 0;
     }
 }
