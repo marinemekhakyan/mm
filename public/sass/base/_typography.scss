@@ -10,7 +10,7 @@ body {
 }
 
 .heading-primary {
-    color: $color-grey;
+    color: $color-grey-light;
     text-transform: uppercase;
     
     backface-visibility: hidden;
@@ -39,7 +39,7 @@ body {
 
     &--sub-2 {
         display: block;
-        color: $color-grey;
+        color: $color-grey-light;
         font-size: 2rem;
         font-weight: bolder;;
         letter-spacing: 1.75rem;

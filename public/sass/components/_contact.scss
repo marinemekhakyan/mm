@@ -1,15 +1,18 @@
 .contact {
+    display: flex;
+    flex-direction: row;
     font-size: 1.5rem;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    text-decoration: none;
 }
 
 .email, .github, .linkedin {
+    margin: .5rem;
+    text-decoration: none;
+    color: black;
+
     &:active {
-        i {
             color: $color-grey-dark;
-        }
     }
 }

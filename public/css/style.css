@@ -74,7 +74,7 @@ body {
   font-size: 1.6rem; }
 
 .heading-primary {
-  color: #bebebe;
+  color: #f7f4f5;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 5rem; }
@@ -97,7 +97,7 @@ body {
     /* animation-delay: 3s; */ }
   .heading-primary--sub-2 {
     display: block;
-    color: #bebebe;
+    color: #f7f4f5;
     font-size: 2rem;
     font-weight: bolder;
     letter-spacing: 1.75rem;
@@ -188,14 +188,19 @@ body {
   transform: translateY(0); }
 
 .contact {
+  display: flex;
+  flex-direction: row;
   font-size: 1.5rem;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
-  text-decoration: none; }
+  top: 0; }
 
-.email:active i, .github:active i, .linkedin:active i {
-  color: #373A36; }
+.email, .github, .linkedin {
+  margin: .5rem;
+  text-decoration: none;
+  color: black; }
+  .email:active, .github:active, .linkedin:active {
+    color: #373A36; }
 
 .composition {
   position: relative;
@@ -414,6 +419,20 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(2px) brightness(80%); }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -4000;
+  opacity: .15;
+  overflow: hidden; }
+  .bg-video__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -441,7 +460,11 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 100vh; }
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(29, 29, 29, 0.7), #1d1d1d), url("../../../assets/v-5.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative; }
   .header__text-box {
     text-align: left; }
   .header__right-menu {
