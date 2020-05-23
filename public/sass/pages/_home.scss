@@ -43,25 +43,28 @@
 }
 
 .side-nav {
-    display: flex;
-    flex-direction: column;
     height: 100%;
-    width: 3rem;
+    width: 3.5rem;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: $color-primary;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding: 1.5rem;
 
     &--items {
-        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        color: $color-grey-dark;
+        font-size: 1.6rem;
         position: -webkit-sticky;
         position: sticky;
-        margin: 0 1rem;
-        color: $color-grey-dark;
-        font-size: 1.5rem;
+        align-content: center;
+
+        &--item {
+            align-self: center;
+        }
     }
 }
 

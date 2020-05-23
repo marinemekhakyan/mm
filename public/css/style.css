@@ -473,24 +473,25 @@ body {
       font-weight: bolder; }
 
 .side-nav {
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  width: 3rem;
+  width: 3.5rem;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color: #B1D600;
   overflow-x: hidden;
-  padding-top: 20px; }
+  padding: 1.5rem; }
   .side-nav--items {
-    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #373A36;
+    font-size: 1.6rem;
     position: -webkit-sticky;
     position: sticky;
-    margin: 0 1rem;
-    color: #373A36;
-    font-size: 1.5rem; }
+    align-content: center; }
+    .side-nav--items--item {
+      align-self: center; }
 
 .section__work {
   padding: 3rem;
