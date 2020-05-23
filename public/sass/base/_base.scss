@@ -13,10 +13,11 @@ html {
 
 body {
     box-sizing: border-box;
-    padding-left: 3rem;
+    // padding-left: 3rem;
     background: $color-primary;
 
 }
+
 
 .top-layer {
     background-color: #1a1a1a;
@@ -25,4 +26,9 @@ body {
 hr {
     background-color: $color-watermelon;
     margin: 1rem 0;
+}
+
+a {
+    color: $color-grey-dark;
+    text-decoration: none;
 }

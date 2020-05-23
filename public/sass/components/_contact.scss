@@ -1,18 +1,18 @@
-.contact {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5rem;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
+// .contact {
+//     display: flex;
+//     flex-direction: row;
+//     font-size: 1.5rem;
+//     position: -webkit-sticky;
+//     position: sticky;
+//     top: 0;
+// }
 
-.email, .github, .linkedin {
-    margin: .5rem;
-    text-decoration: none;
-    color: black;
+// .email, .github, .linkedin {
+//     margin: .5rem;
+//     text-decoration: none;
+//     color: black;
 
-    &:active {
-            color: $color-grey-dark;
-    }
-}
+//     &:active {
+//             color: $color-grey-dark;
+//     }
+// }
