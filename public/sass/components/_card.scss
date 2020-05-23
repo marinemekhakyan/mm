@@ -5,6 +5,9 @@
     -moz-perspective: 150rem;
     position: relative;
     height: 52rem;
+    background-color: #181717;
+    // background-color: #2b2a2a;
+
     
     &__side {
         height: 52rem;
@@ -19,9 +22,9 @@
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
-        &--front {
-            background-color: $color-white;
-        }
+        // &--front {
+        //     // background-color: $color-white;
+        // }
 
         &--back {
             transform: rotateY(180deg);
@@ -141,7 +144,7 @@
 
     &__details {
         // padding: 3rem;
-        color: $color-white;
+        color: $color-grey-dark;
 
         &--helpfull {
             // background-image: linear-gradient(to right bottom, 
