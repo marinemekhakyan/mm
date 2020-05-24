@@ -61,11 +61,22 @@
         position: -webkit-sticky;
         position: sticky;
         align-content: center; 
+        position: relative;
 
         &--item {
             align-self: center;
+
+            // &-logo {
+            //     // flex-grow: 1;
+            // }
         }
+
     }
+}
+
+#logo {
+    position: absolute;
+    top: -1.5rem;
 }
 
 .section__work {
