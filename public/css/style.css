@@ -315,7 +315,7 @@ body {
       width: 100%;
       height: 100%; }
     .card__details--description {
-      color: #fff;
+      color: #bebebe;
       padding: 3rem;
       text-align: center;
       font-family: "Source Code Pro", monospace;
@@ -370,10 +370,10 @@ body {
         padding: 7rem 4rem 4rem 4rem; } }
 
 .about {
-  width: 80%;
+  width: 85%;
   margin: 10rem auto;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.4);
-  background-color: #f7f4f5;
+  background-color: rgba(29, 29, 29, 0.3);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -398,7 +398,9 @@ body {
     backface-visibility: hidden;
     transition: all .5s; }
   .about__text {
-    transform: skewX(12deg); }
+    transform: skewX(12deg);
+    color: #bebebe;
+    font-family: "DM Sans", sans-serif; }
   .about:hover .about__img {
     transform: translateX(0.3rem) scale(1.1); }
 
