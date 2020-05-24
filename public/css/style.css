@@ -63,7 +63,7 @@ hr {
   margin: 1rem 0; }
 
 a {
-  color: #373A36;
+  color: #603149;
   text-decoration: none; }
 
 body {
@@ -487,18 +487,20 @@ body {
   .side-nav--items {
     display: flex;
     flex-direction: column;
-    color: #373A36;
-    font-size: 1.6rem;
-    position: -webkit-sticky;
-    position: sticky;
-    align-content: center;
+    color: #603149;
+    font-size: 1.7rem;
     position: relative; }
     .side-nav--items--item {
-      align-self: center; }
+      align-self: center;
+      cursor: pointer; }
 
 #logo {
   position: absolute;
-  top: -1.5rem; }
+  top: -1.5rem;
+  cursor: pointer; }
+
+#email {
+  margin-top: 28rem; }
 
 .section__work {
   padding: 3rem;

@@ -56,27 +56,26 @@
     &--items {
         display: flex;
         flex-direction: column;
-        color: $color-grey-dark;
-        font-size: 1.6rem;
-        position: -webkit-sticky;
-        position: sticky;
-        align-content: center; 
+        color: $color-secondary;
+        font-size: 1.7rem;
         position: relative;
 
         &--item {
             align-self: center;
-
-            // &-logo {
-            //     // flex-grow: 1;
-            // }
+            cursor: pointer;
         }
-
     }
 }
 
 #logo {
     position: absolute;
     top: -1.5rem;
+    cursor: pointer;
+    
+}
+
+#email {
+    margin-top: 28rem;
 }
 
 .section__work {
