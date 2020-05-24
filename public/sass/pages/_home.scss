@@ -60,7 +60,7 @@
         font-size: 1.6rem;
         position: -webkit-sticky;
         position: sticky;
-        align-content: center;
+        align-content: center; 
 
         &--item {
             align-self: center;
@@ -94,4 +94,5 @@
 .section-about {
     height: 100vh;
     position: relative;
+    background-color: $color-background;
 }

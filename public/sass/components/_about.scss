@@ -1,35 +1,38 @@
 .about {
-    width: 100%;
+    width: 80%;
     margin: 10rem auto;
-    box-shadow: 0 3rem 6rem rgba($color-black, .1);
+    box-shadow: 0 3rem 6rem rgba($color-black, .4);
     background-color: rgba($color-grey-light, 1);
     border-radius: 3px;
-    padding: 10rem;
+    padding: 6rem;
     padding-left: 9rem;
     font-size: $default-font-size;
     font-family: $default-p-font;
     transform: skewX(-12deg);
+    // opacity: 0.5;
 
     &__shape {
         width: 30rem;
         height: 30rem;
-        background-color: aqua;
         float: left;
+        transform: translateX(-3rem) skewX(12deg);
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
         -webkit-shape-outside: circle(50% at 50% 50%);
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
-        transform: translateX(-3rem) skewX(12deg);
-        position: relative;
     }
 
     &__img {
         height: 100%;
-        width: 100%;
-        transform: translateX(-4rem) scale(1.4);
+        // width: 100%;
+        transform: translateX(-1rem) scale(1.3);
+        
+        backface-visibility: hidden;
         transition: all .5s;
 
-        backface-visibility: hidden;
     }
 
     &__text {
@@ -37,7 +40,7 @@
     }
 
     &:hover &__img {
-        transform: translateX(-4rem) scale(1);
-        filter: blur(2px) brightness(80%);
+        transform: translateX(.3rem) scale(1.1);
+        // filter: blur(2px) brightness(80%);
     }
 }
