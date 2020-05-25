@@ -18,7 +18,6 @@ body {
 
 }
 
-
 .top-layer {
     background-color: #1a1a1a;
 }
@@ -31,4 +30,5 @@ hr {
 a {
     color: $color-secondary;
     text-decoration: none;
+    cursor: pointer;
 }

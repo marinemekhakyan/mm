@@ -79,10 +79,8 @@
 }
 
 .section__work {
-    // margin-top: 6rem;
     padding: 3rem;
     background-color: $color-background;
-    // border-radius: 7px;
     height: 100vh;
 
     &--title {
@@ -94,9 +92,6 @@
         color: $color-white;
         padding: 1rem 1.5rem;
         background-color: $color-primary-dark;
-        // background-image: linear-gradient(to right bottom, 
-        // rgba($color-primary-dark, .85), 
-        // rgba($color-primary-dark, .85));
     }
 
 }
