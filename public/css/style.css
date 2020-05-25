@@ -381,10 +381,10 @@ body {
   font-family: "DM Sans", sans-serif;
   transform: skewX(-12deg); }
   .about__shape {
-    width: 30rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
     float: left;
-    transform: translateX(-3rem) skewX(12deg);
+    transform: translateX(-4rem) skewX(12deg);
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -402,8 +402,7 @@ body {
     color: #bebebe;
     font-family: "DM Sans", sans-serif; }
   .about:hover .about__img {
-    transform: translateX(0.3rem) scale(1.1);
-    filter: hue-rotate(100deg); }
+    transform: translateX(0.3rem) scale(1.1); }
 
 .bg-video {
   position: absolute;
@@ -476,7 +475,7 @@ body {
 
 .side-nav {
   height: 100%;
-  width: 3.5rem;
+  width: 4rem;
   position: fixed;
   z-index: 1;
   top: 0;
