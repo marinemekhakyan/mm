@@ -11,10 +11,10 @@
     padding: 1rem 2rem;
     border-radius: 4rem;
     position: relative;
-    // animation: moveInBottom 1s ease-out;
-    // animation-delay: 4.2s;
-    // animation-fill-mode: both;
-    // transition: all .2s;
+    animation: moveInBottom 1s ease-out;
+    animation-delay: 4.2s;
+    animation-fill-mode: both;
+    transition: all .2s;
     display: inline-block;
     margin-top: 1rem;
 }
@@ -24,7 +24,7 @@
         box-shadow: 0 1rem 2rem rgba($color-primary-dark, .2);
         /* X direction, Y direction, blur, color */
         &::after {
-            transform: scaleX(1.5) scaleY(1.6);
+            transform: scaleY(1.3);
             opacity: 0;
         }
     }
@@ -36,11 +36,11 @@
     }
     
     &--white {
-        background-color: $color-grey-light;
-        color: $color-grey-dark;
+        background-color: $color-secondary;
+        // color: $color-secondary;
 
         &::after {
-            background-color: $color-white;
+            background-color: $color-grey-light;
         }
     }
     
@@ -49,7 +49,7 @@
         display: inline-block;
         height: 100%;
         width: 100%;
-        border-radius: 10rem;
+        border-radius: 3rem;
         position: absolute;
         top: 0;
         left: 0;
@@ -57,10 +57,10 @@
         transition: all .4s;
     }
     
-    // &--animated {
-    //     animation: moveInBottom 1s ease-out .75s;
-    //     animation-fill-mode: backwards;
-    // }
+}
+
+#project-btn {
+    animation-delay: 0s;
 }
 
 .btn-text {

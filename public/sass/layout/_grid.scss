@@ -29,14 +29,6 @@
         width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
     }
 
-    .col-1-of-12 {
-        width: calc((100% - 3 * #{$gutter-horizontal}) / 12);
-    }
-
-    .col-11-of-12 {
-        width: calc((100% - 3 * #{$gutter-horizontal}) / 11);
-    }
-
     .col-2-of-3 {
         width: calc( 2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
     }
