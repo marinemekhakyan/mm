@@ -337,7 +337,13 @@ body {
     transform: translate(-50%, -50%);
     width: 90%;
     text-align: center; }
+    .card__cta--technologies {
+      font-size: 2.5rem;
+      font-family: "Source Code Pro", monospace;
+      color: #603149;
+      margin-bottom: 3rem; }
   .card__gif {
+    margin-top: 2rem;
     text-align: center;
     color: #fff;
     margin-bottom: 8rem; }
