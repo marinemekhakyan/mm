@@ -1,16 +1,13 @@
 .about {
     width: 85%;
     margin: 0 auto;
-    // box-shadow: 0 3rem 6rem rgba($color-black, .5);
-    // background-color: #181717;
-
-    border-radius: 3px;
     padding: 6rem;
     padding-left: 9rem;
     font-size: $default-font-size;
     font-family: $default-p-font;
     transform: skewX(-12deg);
     // opacity: 0.5;
+    clear: both;
 
     &__shape {
         width: 25rem;

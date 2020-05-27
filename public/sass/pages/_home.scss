@@ -8,10 +8,14 @@
     background-position: center;
     position: relative;
 
+        @include respond(tab-land) {
+            padding-left: 4rem;
+        }
 
 
     &__text-box {
         text-align: left;
+
     }
 
     &__right-menu {
@@ -102,13 +106,13 @@
 
 #logo {
     position: absolute;
-    top: -1.5rem;
+    top: -1.4rem;
     cursor: pointer;
     
 }
 
 #email {
-    margin-top: 28rem;
+    margin-top: 29rem;
 }
 
 #footer-icon {

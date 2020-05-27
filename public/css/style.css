@@ -67,6 +67,15 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 html {
   font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box;
@@ -392,12 +401,12 @@ body {
 .about {
   width: 85%;
   margin: 0 auto;
-  border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
-  transform: skewX(-12deg); }
+  transform: skewX(-12deg);
+  clear: both; }
   .about__shape {
     width: 25rem;
     height: 25rem;
@@ -454,6 +463,9 @@ body {
   background-size: cover;
   background-position: center;
   position: relative; }
+  @media only screen and (max-width: 75em) {
+    .header {
+      padding-left: 4rem; } }
   .header__text-box {
     text-align: left; }
   .header__right-menu {
@@ -522,11 +534,11 @@ body {
 
 #logo {
   position: absolute;
-  top: -1.5rem;
+  top: -1.4rem;
   cursor: pointer; }
 
 #email {
-  margin-top: 28rem; }
+  margin-top: 29rem; }
 
 #footer-icon {
   font-size: 2rem;
