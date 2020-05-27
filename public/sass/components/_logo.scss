@@ -3,7 +3,7 @@
     margin-bottom: 22rem;
 
     @include respond(tab-land) {
-        margin-bottom: 50rem;
+        margin-bottom: 38rem;
     }
 
     &__photo {
@@ -17,9 +17,8 @@
         animation: moveInRight 1s ease-out;
 
         @include respond(tab-land) {
-            width: 22%;
+            width: 20%;
         }
-
 
         &--p1 {
             left: 0;
@@ -28,18 +27,18 @@
             animation-fill-mode: both;
 
             @include respond(tab-land) {
-                top: 20rem;
+                top: 13rem;
             }
 
         }
         &--p2 {
-            left: 15rem;
+            left: 13rem;
             top: 6rem;
             animation-delay: 3.6s;
             animation-fill-mode: both;
 
             @include respond(tab-land) {
-                top: 20rem;
+                top: 15rem;
                 left: 30rem;
             }
         }
@@ -71,7 +70,7 @@
             animation-fill-mode: both;
 
             @include respond(tab-land) {
-                top: 20rem;
+                top: 13rem;
                 left: 60rem;
             }
         }

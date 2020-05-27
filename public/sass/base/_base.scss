@@ -37,6 +37,10 @@ body {
 
 hr {
     margin: 1rem 0;
+
+    @include respond(tab-port) {
+        margin: 5rem 0;
+    }
 }
 
 a {
