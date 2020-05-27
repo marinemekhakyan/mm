@@ -80,6 +80,9 @@ html {
 body {
   box-sizing: border-box;
   background: #B1D600; }
+  @media only screen and (max-width: 75em) {
+    body {
+      background-color: white; } }
 
 .top-layer {
   background-color: #1a1a1a; }
@@ -118,7 +121,7 @@ body {
     animation-duration: 1s; }
     @media only screen and (max-width: 75em) {
       .heading-primary--main {
-        font-size: 15rem; } }
+        font-size: 12rem; } }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
         font-size: 12rem; } }
@@ -134,10 +137,13 @@ body {
     /* animation-delay: 3s; */ }
     @media only screen and (max-width: 75em) {
       .heading-primary--sub-1 {
-        font-size: 7rem; } }
+        font-size: 5rem; } }
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub-1 {
         font-size: 5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--sub-1 {
+        font-size: 3rem; } }
   .heading-primary--sub-2 {
     display: block;
     color: #f7f4f5;
@@ -154,6 +160,9 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub-2 {
         font-size: 3rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--sub-2 {
+        font-size: 2rem; } }
 
 .u-center-text {
   text-align: center; }
@@ -169,6 +178,9 @@ body {
 
 .skills-icon {
   width: 10%; }
+  @media only screen and (max-width: 75em) {
+    .skills-icon {
+      width: 5%; } }
 
 .skills-blinker {
   width: 4rem;
@@ -269,6 +281,9 @@ body {
     @media only screen and (max-width: 75em) {
       .composition__photo {
         width: 20%; } }
+    @media only screen and (max-width: 37.5em) {
+      .composition__photo {
+        width: 18rem; } }
     .composition__photo--p1 {
       left: 0;
       top: 6rem;
@@ -284,16 +299,17 @@ body {
       animation-fill-mode: both; }
       @media only screen and (max-width: 75em) {
         .composition__photo--p2 {
-          top: 15rem;
+          top: 13rem;
           left: 30rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p2 {
+          top: 13rem;
+          left: 20rem; } }
     .composition__photo--p3 {
       left: 15%;
       top: 0;
       animation-delay: 3.7s;
       animation-fill-mode: both; }
-      @media only screen and (max-width: 75em) {
-        .composition__photo--p3 {
-          right: 45rem; } }
     .composition__photo--p4 {
       left: 42.5%;
       top: 0;
@@ -308,6 +324,10 @@ body {
         .composition__photo--p5 {
           top: 13rem;
           left: 60rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .composition__photo--p5 {
+          top: 13rem;
+          left: 40rem; } }
     .composition__photo--p6 {
       left: 70%;
       top: 0;
@@ -339,6 +359,9 @@ body {
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    @media only screen and (max-width: 75em) {
+      .card__side {
+        bottom: 3rem; } }
     .card__side--back {
       transform: rotateY(90deg); }
       .card__side--back-1 {
@@ -422,7 +445,6 @@ body {
     .card {
       height: auto;
       border-radius: 3px;
-      background-color: #fff;
       box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
       .card__side {
         height: auto;
@@ -479,13 +501,14 @@ body {
 .row {
   max-width: 114rem;
   margin: 0 auto; }
-  @media only screen and (max-width: 75em) {
-    .row {
-      display: flex;
-      flex-direction: column;
-      padding-left: 4rem; } }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
+    @media only screen and (max-width: 75em) {
+      .row:not(:last-child) {
+        margin-bottom: 6rem; } }
+  @media only screen and (max-width: 75em) {
+    .row {
+      max-width: 50rem; } }
   .row::after {
     content: "";
     display: table;
@@ -494,11 +517,15 @@ body {
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
+      @media only screen and (max-width: 75em) {
+        .row [class^="col-"]:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 6rem; } }
+    @media only screen and (max-width: 75em) {
+      .row [class^="col-"] {
+        width: 100% !important; } }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
-    @media only screen and (max-width: 75em) {
-      .row .col-1-of-2 {
-        width: 100%; } }
   .row .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3); }
   .row .col-1-of-4 {
@@ -522,6 +549,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .header {
       padding-left: 7rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      height: 100vh; } }
   .header__text-box {
     text-align: left; }
   .header__right-menu {
@@ -557,6 +587,9 @@ body {
   @media only screen and (max-width: 75em) {
     .side-nav {
       width: 8rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .side-nav {
+      width: 5rem; } }
   .side-nav--items {
     display: flex;
     flex-direction: column;
@@ -566,6 +599,9 @@ body {
     @media only screen and (max-width: 75em) {
       .side-nav--items {
         font-size: 3.5rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav--items {
+        font-size: 4rem; } }
     .side-nav--items--item {
       align-self: center;
       cursor: pointer; }
@@ -574,6 +610,9 @@ body {
   padding: 3rem;
   background-color: #1d1d1d;
   height: 100vh; }
+  @media only screen and (max-width: 75em) {
+    .section__work {
+      height: 100vh; } }
   .section__work--title {
     font-size: 3rem;
     font-weight: 300;
@@ -605,6 +644,10 @@ body {
     #logo {
       width: 8rem !important;
       top: -.8rem; } }
+  @media only screen and (max-width: 37.5em) {
+    #logo {
+      width: 6rem !important;
+      top: -1.5rem; } }
 
 #email {
   margin-top: 29rem; }

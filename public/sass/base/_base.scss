@@ -29,6 +29,9 @@ body {
     // padding-left: 3rem;
     background: $color-primary;
 
+    @include respond(tab-land) {
+        background-color: white;
+    }
 }
 
 .top-layer {

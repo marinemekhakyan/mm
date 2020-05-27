@@ -20,6 +20,10 @@
             width: 20%;
         }
 
+        @include respond(phone) {
+            width: 18rem;
+        }
+
         &--p1 {
             left: 0;
             top: 6rem;
@@ -38,8 +42,13 @@
             animation-fill-mode: both;
 
             @include respond(tab-land) {
-                top: 15rem;
+                top: 13rem;
                 left: 30rem;
+            }
+
+            @include respond(phone) {
+                top: 13rem;
+                left: 20rem;
             }
         }
         &--p3 {
@@ -47,10 +56,6 @@
             top: 0;
             animation-delay: 3.7s;
             animation-fill-mode: both;
-
-            @include respond(tab-land) {
-                right: 45rem;
-            }
 
         }
         &--p4 {
@@ -72,6 +77,11 @@
             @include respond(tab-land) {
                 top: 13rem;
                 left: 60rem;
+            }
+
+            @include respond(phone) {
+                top: 13rem;
+                left: 40rem;
             }
         }
         &--p6 {

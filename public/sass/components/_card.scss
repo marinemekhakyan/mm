@@ -8,6 +8,10 @@
     background-color: #181717;
     // background-color: #2b2a2a;
 
+    // @include respond(tab-land) {
+    //     top: 50rem;
+    // }
+
     
     &__side {
         height: 52rem;
@@ -21,6 +25,10 @@
         border-radius: 3px;
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+
+        @include respond(tab-land) {
+            bottom: 3rem;
+        }
 
 
         &--back {
@@ -176,7 +184,6 @@
 
         height: auto;
         border-radius: 3px;
-        background-color: $color-white;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
         
         &__side {

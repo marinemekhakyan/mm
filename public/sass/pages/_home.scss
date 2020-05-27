@@ -12,9 +12,12 @@
             padding-left: 4rem;
         }
 
-
         @include respond(tab-port) {
             padding-left: 7rem;
+        }
+
+        @include respond(phone) {
+            height: 100vh;
         }
 
         @include respond(big-desktop) {
@@ -72,6 +75,10 @@
         width: 8rem;
     }
 
+    @include respond(phone) {
+        width: 5rem;
+    }
+
     &--items {
         display: flex;
         flex-direction: column;
@@ -81,6 +88,10 @@
 
         @include respond(tab-land) {
             font-size: 3.5rem;
+        }
+
+        @include respond(phone) {
+            font-size: 4rem;
         }
 
         &--item {
@@ -94,6 +105,12 @@
     padding: 3rem;
     background-color: $color-background;
     height: 100vh;
+        
+        @include respond(tab-land) {
+            height: 100vh;
+    }
+   
+
 
     &--title {
         font-size: 3rem;
@@ -104,6 +121,7 @@
         color: $color-white;
         padding: 1rem 1.5rem;
         background-color: $color-primary-dark;
+
     }
 
 }
@@ -131,6 +149,11 @@
     @include respond(tab-land) {
         width: 8rem !important; 
         top: -.8rem;
+    }
+
+    @include respond(phone) {
+        width: 6rem !important; 
+        top: -1.5rem;
     }
   
 }

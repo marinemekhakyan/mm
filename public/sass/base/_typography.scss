@@ -27,12 +27,13 @@ body {
         animation-duration: 1s;
 
         @include respond(tab-land) {
-            font-size: 15rem;
+            font-size: 12rem;
         }
 
         @include respond(tab-port) {
             font-size: 12rem;
         }
+
     }
     
     &--sub-1 {
@@ -46,12 +47,17 @@ body {
         /* animation-iteration-count: 3; */
         /* animation-delay: 3s; */
 
+        
         @include respond(tab-land) {
-            font-size: 7rem;
+            font-size: 5rem;
         }
-
+        
         @include respond(tab-port) {
             font-size: 5rem;
+        }
+
+        @include respond(phone) {
+            font-size: 3rem;
         }
     }
 
@@ -72,6 +78,10 @@ body {
 
         @include respond(tab-port) {
             font-size: 3rem;
+        }
+
+        @include respond(phone) {
+            font-size: 2rem;
         }
     }
 
