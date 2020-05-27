@@ -2,6 +2,10 @@
     position: relative;
     margin-bottom: 22rem;
 
+    @include respond(tab-land) {
+        margin-bottom: 50rem;
+    }
+
     &__photo {
         width: 25%;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
@@ -12,6 +16,10 @@
         outline-offset: 2rem ;
         animation: moveInRight 1s ease-out;
 
+        @include respond(tab-land) {
+            width: 22%;
+        }
+
 
         &--p1 {
             left: 0;
@@ -19,30 +27,53 @@
             animation-delay: 3.5s;
             animation-fill-mode: both;
 
+            @include respond(tab-land) {
+                top: 20rem;
+            }
+
         }
         &--p2 {
             left: 15rem;
             top: 6rem;
             animation-delay: 3.6s;
             animation-fill-mode: both;
+
+            @include respond(tab-land) {
+                top: 20rem;
+                left: 30rem;
+            }
         }
         &--p3 {
             left: 15%;
             top: 0;
             animation-delay: 3.7s;
             animation-fill-mode: both;
+
+            @include respond(tab-land) {
+                right: 45rem;
+            }
+
         }
         &--p4 {
             left: 42.5%;
             top: 0;
             animation-delay: 3.8s;
             animation-fill-mode: both;
+
+            // @include respond(tab-land) {
+            //     top: 20rem;
+            // }
         }
         &--p5 {
             left: 30rem;
             top: 6rem;
             animation-delay: 3.9s;
             animation-fill-mode: both;
+
+            @include respond(tab-land) {
+                top: 20rem;
+                left: 60rem;
+            }
         }
         &--p6 {
             left: 70%;

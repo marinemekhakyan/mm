@@ -13,6 +13,13 @@
         }
 
 
+        @include respond(tab-port) {
+            padding-left: 7rem;
+        }
+
+        @include respond(big-desktop) {
+        }
+
     &__text-box {
         text-align: left;
 
@@ -31,6 +38,10 @@
 
         &--items {
             margin-left: 2rem;
+
+            @include respond(tab-land) {
+                margin-left: 0;
+            }
         }
 
         &--technologies {
@@ -57,12 +68,20 @@
     overflow-x: hidden;
     padding: 1.5rem;
 
+    @include respond(tab-land) {
+        width: 8rem;
+    }
+
     &--items {
         display: flex;
         flex-direction: column;
         color: $color-secondary;
         font-size: 1.7rem;
         position: relative;
+
+        @include respond(tab-land) {
+            font-size: 3.5rem;
+        }
 
         &--item {
             align-self: center;
@@ -108,11 +127,20 @@
     position: absolute;
     top: -1.4rem;
     cursor: pointer;
-    
+
+    @include respond(tab-land) {
+        width: 8rem !important; 
+        top: -.8rem;
+    }
+  
 }
 
 #email {
     margin-top: 29rem;
+
+    @include respond(tab-land) {
+        margin-top: 65rem;
+    }
 }
 
 #footer-icon {

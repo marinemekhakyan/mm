@@ -16,6 +16,8 @@ body {
     backface-visibility: hidden;
     margin-bottom: 7rem;
 
+   
+
     &--main {
         display: block;
         font-size: 15rem;
@@ -23,6 +25,14 @@ body {
         letter-spacing: 1.5rem;
         animation-name: moveInTop;
         animation-duration: 1s;
+
+        @include respond(tab-land) {
+            font-size: 15rem;
+        }
+
+        @include respond(tab-port) {
+            font-size: 12rem;
+        }
     }
     
     &--sub-1 {
@@ -35,6 +45,14 @@ body {
         margin-bottom: 2rem;
         /* animation-iteration-count: 3; */
         /* animation-delay: 3s; */
+
+        @include respond(tab-land) {
+            font-size: 7rem;
+        }
+
+        @include respond(tab-port) {
+            font-size: 5rem;
+        }
     }
 
     &--sub-2 {
@@ -46,12 +64,16 @@ body {
         animation: moveInBottom 1.5s ease-out;
         animation-delay: 1.2s;
         animation-fill-mode: both;
+
+        @include respond(tab-land) {
+            font-size: 3.5rem;
+            letter-spacing: 2rem;
+        }
+
+        @include respond(tab-port) {
+            font-size: 3rem;
+        }
     }
 
-    &--linguist {
-        font-family: 'Bad Script', cursive;
-        font-size: 1.3rem;
-        margin: .8rem 0;
-    }
 }
 
