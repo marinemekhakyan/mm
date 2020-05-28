@@ -21,6 +21,13 @@
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+
+        @include respond(tab-land) {
+            width: 35rem;
+            height: 35rem;
+            transform: translateX(-6.5rem) skewX(12deg);
+
+        }
     }
 
     &__img {
@@ -31,12 +38,20 @@
         backface-visibility: hidden;
         transition: all .5s;
 
+        @include respond(tab-land) {
+            transform: translateX(-.1rem) scale(1);
+        }
+
     }
 
     &__text {
         transform: skewX(12deg);
         color: $color-grey;
         font-family: $default-p-font;
+
+        @include respond(tab-land) {
+            font-size: 2.3rem;
+        }
     }
 
     &:hover &__img {

@@ -42,6 +42,11 @@
         animation-delay: 1.4s;
         animation-fill-mode: both;
 
+            @include respond(tab-land) {
+                height: auto;
+                margin-bottom: $gutter-vertical-small;
+            }
+
         &--items {
             // margin-left: 2rem;
 
@@ -137,6 +142,10 @@
     height: 100vh;
     position: relative;
     background-color: $color-background;
+
+    @include respond(tab-land) {
+        height: auto;
+    }
 }
 
 .section__footer {
@@ -169,7 +178,7 @@
     margin-top: 29rem;
 
     @include respond(tab-land) {
-        margin-top: 65rem;
+        margin-top: 51rem;
     }
 }
 
