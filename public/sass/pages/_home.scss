@@ -10,7 +10,6 @@
 
         @include respond(tab-land) {
             height: auto;
-            align-self: flex-start;
             padding-left: 8rem;
         }
 
@@ -180,6 +179,10 @@
 
     @include respond(tab-land) {
         margin-top: 51rem;
+    }
+
+    @include respond(phone) {
+        margin-top: 40rem;
     }
 }
 

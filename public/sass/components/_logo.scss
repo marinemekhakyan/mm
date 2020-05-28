@@ -43,11 +43,11 @@
             }
 
             @include respond(tab-port) {
-                top: -3rem;
+                top: -1rem;
             }
 
             @include respond(phone) {
-                top: -1rem;
+                top: 1rem;
                 left: -6rem;
             }
 
@@ -65,12 +65,12 @@
             }
 
             @include respond(tab-port) {
-                top: -3rem;
+                top: -1rem;
                 left: 15rem;
             }
 
             @include respond(phone) {
-                top: -1rem;
+                top: 1rem;
                 left: 5rem;
             }
         }
@@ -86,12 +86,12 @@
             }
 
             @include respond(tab-port) {
-                top: -3rem;
+                top: -1rem;
                 left: 30rem;
             }
 
             @include respond(phone) {
-                top: -1rem;
+                top: 1rem;
                 left: 16rem;
             }
 
@@ -109,12 +109,12 @@
 
 
             @include respond(tab-port) {
-                top: -3rem;
+                top: -1rem;
                 left: 45rem;
             }
 
             @include respond(phone) {
-                top: -1rem;
+                top: 1rem;
                 left: 28rem;
             }
         }
@@ -130,12 +130,12 @@
             }
 
             @include respond(tab-port) {
-                top: -3rem;
+                top: -1rem;
                 left: 60rem;
             }
 
             @include respond(phone) {
-                top: -1rem;
+                top: 1rem;
                 left: 39rem;
             }
         }
@@ -151,12 +151,12 @@
             }
 
             @include respond(tab-port) {
-                top: -3rem;
+                top: -1rem;
                 left: 75rem;
             }
 
             @include respond(phone) {
-                top: -1rem;
+                top: 1rem;
                 left: 50rem;
             }
         }

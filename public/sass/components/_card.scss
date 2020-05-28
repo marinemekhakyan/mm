@@ -26,6 +26,7 @@
         overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
+
         @include respond(tab-land) {
             bottom: 3rem;
         }
