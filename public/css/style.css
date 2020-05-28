@@ -281,8 +281,9 @@ body {
     animation: moveInRight 1s ease-out; }
     @media only screen and (max-width: 56.25em) {
       .composition__photo {
-        width: 20%;
-        padding-right: 3rem; } }
+        width: 19%;
+        padding-right: 3rem;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0); } }
     .composition__photo--p1 {
       left: 0;
       top: 6rem;
@@ -317,7 +318,7 @@ body {
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p4 {
           top: -3rem;
-          left: 48rem; } }
+          left: 45rem; } }
     .composition__photo--p5 {
       left: 30rem;
       top: 6rem;
@@ -326,7 +327,7 @@ body {
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p5 {
           top: -3rem;
-          left: 63rem; } }
+          left: 60rem; } }
     .composition__photo--p6 {
       left: 70%;
       top: 0;
@@ -335,7 +336,7 @@ body {
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p6 {
           top: -3rem;
-          left: 80rem; } }
+          left: 75rem; } }
     .composition__photo:hover {
       outline: 0.3rem solid #B1D600;
       transform: scale(2.05) translateY(-2rem);
