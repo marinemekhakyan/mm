@@ -21,6 +21,7 @@
 
         @include respond(phone) {
             height: auto;
+            margin-left: 0;
         }
 
         // @include respond(big-desktop) {
@@ -99,7 +100,7 @@
         }
 
         @include respond(phone) {
-            font-size: 4rem;
+            font-size: 2.5rem;
         }
 
         &--item {

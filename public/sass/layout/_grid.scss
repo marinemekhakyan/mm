@@ -60,10 +60,17 @@
 
             @include respond(tab-port) {
                 align-self: center;
-                max-width: 60%;
                 height: auto;
                 margin-bottom: $gutter-vertical-small;
             }
+
+            @include respond(phone) {
+                align-self: center;
+                max-width: 80%;
+                height: auto;
+                margin-bottom: $gutter-vertical-small;
+            }
+
     }
 
     .col-2-of-3 {
