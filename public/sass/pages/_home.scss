@@ -13,9 +13,9 @@
             padding-left: 8rem;
         }
 
-        // @include respond(tab-port) {
-        //     padding-left: 7rem;
-        // }
+        @include respond(tab-port) {
+            margin-left: 3rem;
+        }
 
         // @include respond(phone) {
         //     height: 100vh;
