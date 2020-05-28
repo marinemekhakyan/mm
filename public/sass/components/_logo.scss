@@ -16,11 +16,16 @@
         outline-offset: 2rem ;
         animation: moveInRight 1s ease-out;
 
+
+        @include respond(tab-land) {
+            width: 15%;
+            box-shadow: 0 0 0 rgba($color-black, 0);
+        }
+
         @include respond(tab-port) {
             width: 19%;
             padding-right: 3rem;
             box-shadow: 0 0 0 rgba($color-black, 0);
-
         }
 
         // @include respond(phone) {
@@ -33,6 +38,10 @@
             animation-delay: 3.5s;
             animation-fill-mode: both;
 
+            @include respond(tab-land) {
+                top: 2rem;
+            }
+
             @include respond(tab-port) {
                 top: -3rem;
             }
@@ -43,6 +52,12 @@
             top: 6rem;
             animation-delay: 3.6s;
             animation-fill-mode: both;
+
+            @include respond(tab-land) {
+                top: 2rem;
+                left: 15rem;
+
+            }
 
             @include respond(tab-port) {
                 top: -3rem;
@@ -60,6 +75,13 @@
             animation-delay: 3.7s;
             animation-fill-mode: both;
 
+            @include respond(tab-land) {
+                top: 2rem;
+                left: 30rem;
+
+            }
+
+
             @include respond(tab-port) {
                 top: -3rem;
                 left: 30rem;
@@ -73,6 +95,12 @@
             animation-delay: 3.8s;
             animation-fill-mode: both;
 
+            @include respond(tab-land) {
+                top: 2rem;
+                left: 45rem;
+            }
+
+
             @include respond(tab-port) {
                 top: -3rem;
                 left: 45rem;
@@ -83,6 +111,12 @@
             top: 6rem;
             animation-delay: 3.9s;
             animation-fill-mode: both;
+
+            @include respond(tab-land) {
+                top: 2rem;
+                left: 60rem;
+            }
+
 
             @include respond(tab-port) {
                 top: -3rem;
@@ -99,6 +133,11 @@
             top: 0;
             animation-delay: 4s;
             animation-fill-mode: both;
+
+            @include respond(tab-land) {
+                top: 2rem;
+                left: 75rem;
+            }
 
             @include respond(tab-port) {
                 top: -3rem;

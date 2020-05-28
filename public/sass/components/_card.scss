@@ -163,6 +163,10 @@
         width: 90%;
         text-align: center;
 
+        @include respond(tab-port) {
+            margin-bottom: 2rem;
+        }
+
         &--technologies {
             font-size: 2.5rem;
             font-family: $code-font;

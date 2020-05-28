@@ -9,17 +9,19 @@
     position: relative;
 
         @include respond(tab-land) {
+            height: auto;
             align-self: flex-start;
             padding-left: 8rem;
         }
 
         @include respond(tab-port) {
             margin-left: 3rem;
+            height: auto;
         }
 
-        // @include respond(phone) {
-        //     height: 100vh;
-        // }
+        @include respond(phone) {
+            height: auto;
+        }
 
         // @include respond(big-desktop) {
         // }
@@ -108,7 +110,11 @@
     height: 100vh;
         
         @include respond(tab-land) {
-            height: 100vh;
+            height: auto;
+    }
+
+        @include respond(tab-port) {
+            height: auto;
     }
    
 
