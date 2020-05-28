@@ -3,7 +3,7 @@
     margin-bottom: 22rem;
 
     @include respond(tab-land) {
-        margin-bottom: 38rem;
+        margin-left: 3rem;
     }
 
     &__photo {
@@ -16,13 +16,13 @@
         outline-offset: 2rem ;
         animation: moveInRight 1s ease-out;
 
-        @include respond(tab-land) {
+        @include respond(tab-port) {
             width: 20%;
         }
 
-        @include respond(phone) {
-            width: 18rem;
-        }
+        // @include respond(phone) {
+        //     width: 18rem;
+        // }
 
         &--p1 {
             left: 0;
@@ -30,8 +30,8 @@
             animation-delay: 3.5s;
             animation-fill-mode: both;
 
-            @include respond(tab-land) {
-                top: 13rem;
+            @include respond(tab-port) {
+                top: -3rem;
             }
 
         }
@@ -41,21 +41,27 @@
             animation-delay: 3.6s;
             animation-fill-mode: both;
 
-            @include respond(tab-land) {
-                top: 13rem;
-                left: 30rem;
+            @include respond(tab-port) {
+                top: -3rem;
+                left: 15rem;
             }
 
-            @include respond(phone) {
-                top: 13rem;
-                left: 20rem;
-            }
+            // @include respond(phone) {
+            //     top: 13rem;
+            //     left: 20rem;
+            // }
         }
         &--p3 {
             left: 15%;
             top: 0;
             animation-delay: 3.7s;
             animation-fill-mode: both;
+
+            @include respond(tab-port) {
+                top: -3rem;
+                left: 30rem;
+
+            }
 
         }
         &--p4 {
@@ -64,9 +70,10 @@
             animation-delay: 3.8s;
             animation-fill-mode: both;
 
-            // @include respond(tab-land) {
-            //     top: 20rem;
-            // }
+            @include respond(tab-port) {
+                top: -3rem;
+                left: 48rem;
+            }
         }
         &--p5 {
             left: 30rem;
@@ -74,21 +81,26 @@
             animation-delay: 3.9s;
             animation-fill-mode: both;
 
-            @include respond(tab-land) {
-                top: 13rem;
-                left: 60rem;
+            @include respond(tab-port) {
+                top: -3rem;
+                left: 63rem;
             }
 
-            @include respond(phone) {
-                top: 13rem;
-                left: 40rem;
-            }
+            // @include respond(phone) {
+            //     top: 13rem;
+            //     left: 40rem;
+            // }
         }
         &--p6 {
             left: 70%;
             top: 0;
             animation-delay: 4s;
             animation-fill-mode: both;
+
+            @include respond(tab-port) {
+                top: -3rem;
+                left: 80rem;
+            }
         }
 
         &:hover {
