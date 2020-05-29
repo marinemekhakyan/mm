@@ -11,16 +11,19 @@
         @include respond(tab-land) {
             height: auto;
             padding-left: 8rem;
+            overflow-x: hidden;
         }
 
         @include respond(tab-port) {
             margin-left: 3rem;
             height: auto;
+            overflow-x: hidden;
         }
 
         @include respond(phone) {
             height: auto;
             margin-left: -4rem;
+            overflow-x: hidden;
         }
 
         // @include respond(big-desktop) {
