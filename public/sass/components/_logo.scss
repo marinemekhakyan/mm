@@ -29,7 +29,8 @@
         }
 
         @include respond(phone) {
-            width: 16rem;
+            width: 14rem;
+            
         }
 
         &--p1 {
@@ -47,7 +48,7 @@
             }
 
             @include respond(phone) {
-                top: 1rem;
+                top: 6rem;
                 left: -6rem;
             }
 
@@ -70,8 +71,8 @@
             }
 
             @include respond(phone) {
-                top: 1rem;
-                left: 5rem;
+                top: 6rem;
+                left: 6rem;
             }
         }
         &--p3 {
@@ -91,8 +92,8 @@
             }
 
             @include respond(phone) {
-                top: 1rem;
-                left: 16rem;
+                top: 0;
+                left: 0;
             }
 
         }
@@ -114,8 +115,8 @@
             }
 
             @include respond(phone) {
-                top: 1rem;
-                left: 28rem;
+                top: 0;
+                left: 13.5rem;
             }
         }
         &--p5 {
@@ -135,8 +136,8 @@
             }
 
             @include respond(phone) {
-                top: 1rem;
-                left: 39rem;
+                top: 6rem;
+                left: 19rem;
             }
         }
         &--p6 {
@@ -156,8 +157,8 @@
             }
 
             @include respond(phone) {
-                top: 1rem;
-                left: 50rem;
+                top: 0;
+                left: 24rem;
             }
         }
 

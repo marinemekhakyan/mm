@@ -32,6 +32,7 @@ body {
     @include respond(tab-land) {
         background-color: $color-primary;
     }
+
 }
 
 .top-layer {

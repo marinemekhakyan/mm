@@ -34,6 +34,10 @@ body {
             font-size: 12rem;
         }
 
+        @include respond(phone) {
+            font-size: 8rem;
+        }
+
     }
     
     &--sub-1 {
@@ -82,7 +86,8 @@ body {
         }
 
         @include respond(phone) {
-            font-size: 2rem;
+            font-size: 1.5rem;
+            letter-spacing: 1rem;
         }
     }
 
