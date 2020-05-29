@@ -123,7 +123,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
         font-size: 12rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .heading-primary--main {
         font-size: 8rem; } }
   .heading-primary--sub-1 {
@@ -142,7 +142,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub-1 {
         font-size: 5rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .heading-primary--sub-1 {
         font-size: 3rem; } }
   .heading-primary--sub-2 {
@@ -162,7 +162,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub-2 {
         font-size: 3rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .heading-primary--sub-2 {
         font-size: 1.5rem;
         letter-spacing: 1rem; } }
@@ -188,7 +188,7 @@ body {
 .skills-blinker {
   width: 4rem;
   margin-left: 1rem; }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     .skills-blinker {
       margin-left: -1rem;
       margin-top: -3.5rem; } }
@@ -218,7 +218,7 @@ body {
     .btn:link, .btn:visited {
       padding: 1.5rem 2.5rem;
       font-size: 2.5rem; } }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     .btn:link, .btn:visited {
       padding: .8rem 1.5rem;
       font-size: 2rem; } }
@@ -298,7 +298,7 @@ body {
         width: 19%;
         padding-right: 3rem;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0); } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .composition__photo {
         width: 14rem; } }
     .composition__photo--p1 {
@@ -312,7 +312,7 @@ body {
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p1 {
           top: -1rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .composition__photo--p1 {
           top: 6rem;
           left: -6rem; } }
@@ -329,7 +329,7 @@ body {
         .composition__photo--p2 {
           top: -1rem;
           left: 15rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .composition__photo--p2 {
           top: 6rem;
           left: 6rem; } }
@@ -346,7 +346,7 @@ body {
         .composition__photo--p3 {
           top: -1rem;
           left: 30rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .composition__photo--p3 {
           top: 0;
           left: 0; } }
@@ -363,7 +363,7 @@ body {
         .composition__photo--p4 {
           top: -1rem;
           left: 45rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .composition__photo--p4 {
           top: 0;
           left: 13.5rem; } }
@@ -380,7 +380,7 @@ body {
         .composition__photo--p5 {
           top: -1rem;
           left: 60rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .composition__photo--p5 {
           top: 6rem;
           left: 19rem; } }
@@ -397,7 +397,7 @@ body {
         .composition__photo--p6 {
           top: -1rem;
           left: 75rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .composition__photo--p6 {
           top: 0;
           left: 24rem; } }
@@ -406,8 +406,29 @@ body {
       transform: scale(2.05) translateY(-2rem);
       box-shadow: 0 2.5rem 3.5rem rgba(0, 0, 0, 0.5);
       z-index: 30; }
+      @media only screen and (max-width: 75em) {
+        .composition__photo:hover {
+          outline: none;
+          transform: none; } }
+      @media only screen and (max-width: 56.25em) {
+        .composition__photo:hover {
+          outline: none;
+          transform: none; } }
+      @media only screen and (max-width: 30em) {
+        .composition__photo:hover {
+          outline: none;
+          transform: none; } }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
+    @media only screen and (max-width: 75em) {
+      .composition:hover .composition__photo:not(:hover) {
+        transform: none; } }
+    @media only screen and (max-width: 56.25em) {
+      .composition:hover .composition__photo:not(:hover) {
+        transform: none; } }
+    @media only screen and (max-width: 30em) {
+      .composition:hover .composition__photo:not(:hover) {
+        transform: none; } }
 
 .card {
   perspective: 150rem;
@@ -455,7 +476,7 @@ body {
     @media only screen and (max-width: 75em) {
       .card__picture {
         height: 30rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .card__picture {
         height: 20rem; } }
     .card__picture--1 {
@@ -481,7 +502,7 @@ body {
     @media only screen and (max-width: 75em) {
       .card__heading {
         font-size: 4rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .card__heading {
         font-size: 2rem; } }
   .card__heading-span {
@@ -505,7 +526,7 @@ body {
       @media only screen and (max-width: 75em) {
         .card__details--description {
           font-size: 2.5rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .card__details--description {
           font-size: 1.5rem;
           padding: 1.5rem; } }
@@ -527,7 +548,7 @@ body {
       @media only screen and (max-width: 75em) {
         .card__cta--technologies {
           font-size: 4.5rem; } }
-      @media only screen and (max-width: 24em) {
+      @media only screen and (max-width: 30em) {
         .card__cta--technologies {
           font-size: 3rem; } }
   .card__gif {
@@ -571,7 +592,7 @@ body {
   font-family: "DM Sans", sans-serif;
   transform: skewX(-12deg);
   clear: both; }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     .about {
       width: 100%;
       padding: 3rem; } }
@@ -592,7 +613,7 @@ body {
         width: 35rem;
         height: 35rem;
         transform: translateX(-6.5rem) skewX(12deg); } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .about__shape {
         width: 20rem;
         height: 20rem;
@@ -612,7 +633,7 @@ body {
     @media only screen and (max-width: 75em) {
       .about__text {
         font-size: 2.3rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .about__text {
         font-size: 1.5rem; } }
   .about:hover .about__img {
@@ -665,7 +686,7 @@ body {
         align-self: center;
         height: auto;
         margin-bottom: 6rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .row .col-1-of-4 {
         align-self: center;
         max-width: 100%;
@@ -692,7 +713,7 @@ body {
     .header {
       margin-left: 3rem;
       height: auto; } }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     .header {
       height: auto;
       margin-left: -4rem; } }
@@ -733,7 +754,7 @@ body {
   @media only screen and (max-width: 75em) {
     .side-nav {
       width: 8rem; } }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     .side-nav {
       width: 3rem; } }
   .side-nav--items {
@@ -745,7 +766,7 @@ body {
     @media only screen and (max-width: 75em) {
       .side-nav--items {
         font-size: 3.5rem; } }
-    @media only screen and (max-width: 24em) {
+    @media only screen and (max-width: 30em) {
       .side-nav--items {
         font-size: 1.8rem; } }
     .side-nav--items--item {
@@ -779,7 +800,7 @@ body {
   @media only screen and (max-width: 75em) {
     .section-about {
       height: auto; } }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     .section-about {
       height: auto; } }
 
@@ -799,7 +820,7 @@ body {
     #logo {
       width: 8rem !important;
       top: -.8rem; } }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     #logo {
       width: 4rem !important;
       top: -1.5rem; } }
@@ -809,7 +830,7 @@ body {
   @media only screen and (max-width: 75em) {
     #email {
       margin-top: 51rem; } }
-  @media only screen and (max-width: 24em) {
+  @media only screen and (max-width: 30em) {
     #email {
       margin-top: 30rem; } }
 

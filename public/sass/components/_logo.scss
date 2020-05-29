@@ -19,7 +19,7 @@
 
         @include respond(tab-land) {
             width: 15%;
-            box-shadow: 0 0 0 rgba($color-black, 0);
+            box-shadow: 0 0 0 rgba($color-black, 0);    
         }
 
         @include respond(tab-port) {
@@ -30,7 +30,6 @@
 
         @include respond(phone) {
             width: 14rem;
-            
         }
 
         &--p1 {
@@ -62,7 +61,6 @@
             @include respond(tab-land) {
                 top: 2rem;
                 left: 15rem;
-
             }
 
             @include respond(tab-port) {
@@ -167,10 +165,38 @@
             transform: scale(2.05) translateY(-2rem);
             box-shadow: 0 2.5rem 3.5rem rgba($color-black, .5);
             z-index: 30;
+
+            @include respond(tab-land) {
+                outline: none;
+                transform: none;
+            }
+
+            @include respond(tab-port) {
+                outline: none;
+                transform: none;
+            }
+
+            @include respond(phone) {
+                outline: none;
+                transform: none;
+            }
         }
     }
 
     &:hover &__photo:not(:hover) {
         transform: scale(.95);
+
+        @include respond(tab-land) {
+            transform: none;
+        }
+
+        @include respond(tab-port) {
+            transform: none;
+        }
+
+        @include respond(phone) {
+            transform: none;
+        }
+
     }
 }
