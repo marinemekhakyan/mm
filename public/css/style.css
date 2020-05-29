@@ -72,10 +72,10 @@ html {
       font-size: 75%; } }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 56.25%; } }
+      font-size: 30%; } }
   @media only screen and (max-width: 56.25em) {
     html {
-      font-size: 50%; } }
+      font-size: 10%; } }
 
 body {
   box-sizing: border-box;
@@ -595,9 +595,9 @@ body {
         transform: translateX(-6.5rem) skewX(12deg); } }
     @media only screen and (max-width: 24em) {
       .about__shape {
-        width: 30rem;
-        height: 30rem;
-        transform: translateX(-9rem) skewX(12deg); } }
+        width: 20rem;
+        height: 20rem;
+        transform: translateX(-18rem) translateY(10rem) skewX(12deg); } }
   .about__img {
     height: 100%;
     transform: translateX(-1rem) scale(1.3);
@@ -615,7 +615,7 @@ body {
         font-size: 2.3rem; } }
     @media only screen and (max-width: 24em) {
       .about__text {
-        font-size: 2rem; } }
+        font-size: 1.5rem; } }
   .about:hover .about__img {
     transform: translateX(0.3rem) scale(1.1); }
 
@@ -669,7 +669,7 @@ body {
     @media only screen and (max-width: 24em) {
       .row .col-1-of-4 {
         align-self: center;
-        max-width: 80%;
+        max-width: 100%;
         height: auto;
         margin-bottom: 6rem; } }
   .row .col-2-of-3 {
