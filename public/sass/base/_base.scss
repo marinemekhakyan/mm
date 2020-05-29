@@ -15,23 +15,23 @@ html {
     }
 
     @include respond(tab-land) {
-        font-size: 30%;
+        font-size: 56.25%;
     }
 
     @include respond(tab-port) {
-        font-size: 10%;
+        font-size: 50%;
     }
 
 }
 
 body {
     box-sizing: border-box;
-    // padding-left: 3rem;
+    padding-left: 3rem;
     background: $color-primary;
 
-    @include respond(tab-land) {
-        background-color: $color-primary;
-    }
+    // @include respond(tab-land) {
+    //     background-color: $color-primary;
+    // }
 
 }
 

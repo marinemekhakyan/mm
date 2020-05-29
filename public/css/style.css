@@ -72,17 +72,15 @@ html {
       font-size: 75%; } }
   @media only screen and (max-width: 75em) {
     html {
-      font-size: 30%; } }
+      font-size: 56.25%; } }
   @media only screen and (max-width: 56.25em) {
     html {
-      font-size: 10%; } }
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box;
+  padding-left: 3rem;
   background: #B1D600; }
-  @media only screen and (max-width: 75em) {
-    body {
-      background-color: #B1D600; } }
 
 .top-layer {
   background-color: #1a1a1a; }
