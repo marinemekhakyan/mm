@@ -20,7 +20,7 @@
 
         @include respond(phone) {
             height: auto;
-            margin-left: -2rem;
+            margin-left: -4rem;
         }
 
         // @include respond(big-desktop) {
@@ -141,9 +141,13 @@
 .section-about {
     height: 100vh;
     position: relative;
-    background-color: $color-background;
+    background-color: $color-background-light;
 
     @include respond(tab-land) {
+        height: auto;
+    }
+
+    @include respond(phone) {
         height: auto;
     }
 }
