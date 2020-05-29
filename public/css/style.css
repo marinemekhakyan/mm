@@ -125,7 +125,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--main {
         font-size: 12rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .heading-primary--main {
         font-size: 8rem; } }
   .heading-primary--sub-1 {
@@ -144,7 +144,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub-1 {
         font-size: 5rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .heading-primary--sub-1 {
         font-size: 3rem; } }
   .heading-primary--sub-2 {
@@ -164,7 +164,7 @@ body {
     @media only screen and (max-width: 56.25em) {
       .heading-primary--sub-2 {
         font-size: 3rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .heading-primary--sub-2 {
         font-size: 1.5rem;
         letter-spacing: 1rem; } }
@@ -190,7 +190,7 @@ body {
 .skills-blinker {
   width: 4rem;
   margin-left: 1rem; }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     .skills-blinker {
       margin-left: -1rem;
       margin-top: -3.5rem; } }
@@ -220,7 +220,7 @@ body {
     .btn:link, .btn:visited {
       padding: 1.5rem 2.5rem;
       font-size: 2.5rem; } }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     .btn:link, .btn:visited {
       padding: .8rem 1.5rem;
       font-size: 2rem; } }
@@ -300,7 +300,7 @@ body {
         width: 19%;
         padding-right: 3rem;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0); } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .composition__photo {
         width: 14rem; } }
     .composition__photo--p1 {
@@ -314,7 +314,7 @@ body {
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p1 {
           top: -1rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .composition__photo--p1 {
           top: 6rem;
           left: -6rem; } }
@@ -331,7 +331,7 @@ body {
         .composition__photo--p2 {
           top: -1rem;
           left: 15rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .composition__photo--p2 {
           top: 6rem;
           left: 6rem; } }
@@ -348,7 +348,7 @@ body {
         .composition__photo--p3 {
           top: -1rem;
           left: 30rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .composition__photo--p3 {
           top: 0;
           left: 0; } }
@@ -365,7 +365,7 @@ body {
         .composition__photo--p4 {
           top: -1rem;
           left: 45rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .composition__photo--p4 {
           top: 0;
           left: 13.5rem; } }
@@ -382,7 +382,7 @@ body {
         .composition__photo--p5 {
           top: -1rem;
           left: 60rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .composition__photo--p5 {
           top: 6rem;
           left: 19rem; } }
@@ -399,7 +399,7 @@ body {
         .composition__photo--p6 {
           top: -1rem;
           left: 75rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .composition__photo--p6 {
           top: 0;
           left: 24rem; } }
@@ -456,8 +456,10 @@ body {
     border-top-right-radius: 3px; }
     @media only screen and (max-width: 75em) {
       .card__picture {
-        height: 30rem;
-        background-size: cover; } }
+        height: 30rem; } }
+    @media only screen and (max-width: 24em) {
+      .card__picture {
+        height: 20rem; } }
     .card__picture--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url("../../../assets/helpfull.jpg"); }
     .card__picture--2 {
@@ -481,7 +483,7 @@ body {
     @media only screen and (max-width: 75em) {
       .card__heading {
         font-size: 4rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .card__heading {
         font-size: 2rem; } }
   .card__heading-span {
@@ -505,9 +507,10 @@ body {
       @media only screen and (max-width: 75em) {
         .card__details--description {
           font-size: 2.5rem; } }
-      @media only screen and (max-width: 23.43em) {
+      @media only screen and (max-width: 24em) {
         .card__details--description {
-          font-size: 1.5rem; } }
+          font-size: 1.5rem;
+          padding: 1.5rem; } }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -526,12 +529,15 @@ body {
       @media only screen and (max-width: 75em) {
         .card__cta--technologies {
           font-size: 4.5rem; } }
+      @media only screen and (max-width: 24em) {
+        .card__cta--technologies {
+          font-size: 3rem; } }
   .card__gif {
     margin-top: 2rem;
     text-align: center;
     color: #fff;
     margin-bottom: 8rem; }
-  @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+  @media only screen and (max-width: 75em), only screen and (hover: none) {
     .card {
       height: auto;
       border-radius: 3px;
@@ -554,9 +560,9 @@ body {
         transform: translate(0);
         width: 100%;
         padding: 7rem 4rem 4rem 4rem; } }
-    @media only screen and (max-width: 56.25em) and (max-width: 56.25em), only screen and (hover: none) and (max-width: 56.25em) {
+    @media only screen and (max-width: 75em) and (max-width: 56.25em), only screen and (hover: none) and (max-width: 56.25em) {
       .card__cta {
-        padding: 7rem 4rem 1rem 1rem; } }
+        padding: 6rem 0 0 0; } }
 
 .about {
   width: 85%;
@@ -567,7 +573,7 @@ body {
   font-family: "DM Sans", sans-serif;
   transform: skewX(-12deg);
   clear: both; }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     .about {
       width: 90%; } }
   .about__shape {
@@ -587,7 +593,7 @@ body {
         width: 35rem;
         height: 35rem;
         transform: translateX(-6.5rem) skewX(12deg); } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .about__shape {
         width: 30rem;
         height: 30rem;
@@ -607,7 +613,7 @@ body {
     @media only screen and (max-width: 75em) {
       .about__text {
         font-size: 2.3rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .about__text {
         font-size: 2rem; } }
   .about:hover .about__img {
@@ -660,7 +666,7 @@ body {
         align-self: center;
         height: auto;
         margin-bottom: 6rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .row .col-1-of-4 {
         align-self: center;
         max-width: 80%;
@@ -687,7 +693,7 @@ body {
     .header {
       margin-left: 3rem;
       height: auto; } }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     .header {
       height: auto;
       margin-left: -2rem; } }
@@ -728,7 +734,7 @@ body {
   @media only screen and (max-width: 75em) {
     .side-nav {
       width: 8rem; } }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     .side-nav {
       width: 3rem; } }
   .side-nav--items {
@@ -740,7 +746,7 @@ body {
     @media only screen and (max-width: 75em) {
       .side-nav--items {
         font-size: 3.5rem; } }
-    @media only screen and (max-width: 23.43em) {
+    @media only screen and (max-width: 24em) {
       .side-nav--items {
         font-size: 1.8rem; } }
     .side-nav--items--item {
@@ -791,7 +797,7 @@ body {
     #logo {
       width: 8rem !important;
       top: -.8rem; } }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     #logo {
       width: 4rem !important;
       top: -1.5rem; } }
@@ -801,7 +807,7 @@ body {
   @media only screen and (max-width: 75em) {
     #email {
       margin-top: 51rem; } }
-  @media only screen and (max-width: 23.43em) {
+  @media only screen and (max-width: 24em) {
     #email {
       margin-top: 30rem; } }
 

@@ -75,7 +75,10 @@
 
         @include respond(tab-land) {
             height: 30rem; 
-            background-size: cover;
+        }
+
+        @include respond(phone) {
+            height: 20rem;
         }
         
         &--1 {
@@ -165,6 +168,7 @@
 
             @include respond(phone) {
                 font-size: 1.5rem;
+                padding: 1.5rem;
             }
 
         }
@@ -193,6 +197,10 @@
             @include respond(tab-land) {
                 font-size: 4.5rem;
             }
+
+            @include respond(phone) {
+                font-size: 3rem;
+            }
         }
     }
 
@@ -204,7 +212,7 @@
     }
 
     
-    @media only screen and (max-width: 56.25em),
+    @media only screen and (max-width: 75em),
             only screen and (hover: none) {
 
         height: auto;
@@ -241,7 +249,7 @@
             padding: 7rem 4rem 4rem 4rem;
 
             @include respond(tab-port) {
-                padding: 7rem 4rem 1rem 1rem;
+                padding: 6rem 0 0 0 ;
             }
         }
 
