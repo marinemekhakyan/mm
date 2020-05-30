@@ -80,7 +80,8 @@ html {
 body {
   box-sizing: border-box;
   padding-left: 3rem;
-  background: #B1D600; }
+  background: #B1D600;
+  width: 100%; }
 
 .top-layer {
   background-color: #1a1a1a; }
@@ -586,12 +587,11 @@ body {
 .about {
   width: 85%;
   margin: 0 auto;
-  padding: 6rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   padding-left: 9rem;
   font-size: 1.6rem;
-  font-family: "DM Sans", sans-serif;
-  transform: skewX(-12deg);
-  clear: both; }
+  font-family: "DM Sans", sans-serif; }
   @media only screen and (max-width: 30em) {
     .about {
       width: 100%;
@@ -600,7 +600,7 @@ body {
     width: 25rem;
     height: 25rem;
     float: left;
-    transform: translateX(-4rem) skewX(12deg);
+    transform: translateX(-2rem);
     position: relative;
     overflow: hidden;
     border-radius: 50%;
@@ -612,12 +612,12 @@ body {
       .about__shape {
         width: 35rem;
         height: 35rem;
-        transform: translateX(-6.5rem) skewX(12deg); } }
+        transform: translateX(-4rem); } }
     @media only screen and (max-width: 30em) {
       .about__shape {
         width: 20rem;
         height: 20rem;
-        transform: translateX(-6rem) translateY(-1rem) skewX(12deg); } }
+        transform: translateX(-1.5rem); } }
   .about__img {
     height: 100%;
     transform: translateX(-1rem) scale(1.3);
@@ -627,7 +627,6 @@ body {
       .about__img {
         transform: translateX(0) scale(1); } }
   .about__text {
-    transform: skewX(12deg);
     color: #bebebe;
     font-family: "DM Sans", sans-serif; }
     @media only screen and (max-width: 75em) {
