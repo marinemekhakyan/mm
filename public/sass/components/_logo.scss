@@ -16,14 +16,14 @@
         outline-offset: 2rem ;
         animation: moveInRight 1s ease-out;
 
-
+        
         @include respond(tab-land) {
             width: 15%;
             box-shadow: 0 0 0 rgba($color-black, 0);    
         }
 
         @include respond(tab-port) {
-            width: 19%;
+            width: 20%;
             padding-right: 3rem;
             box-shadow: 0 0 0 rgba($color-black, 0);
         }
@@ -31,6 +31,7 @@
         @include respond(phone) {
             width: 14rem;
         }
+
 
         &--p1 {
             left: 0;
@@ -41,10 +42,10 @@
             @include respond(tab-land) {
                 top: 2rem;
             }
-
             @include respond(tab-port) {
                 top: -1rem;
             }
+
 
             @include respond(phone) {
                 top: 6rem;

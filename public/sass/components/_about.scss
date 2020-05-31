@@ -1,5 +1,5 @@
 .about {
-    width: 85%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -24,6 +24,7 @@
         shape-outside: circle(50% at 50% 50%);
         -webkit-clip-path: circle(50% at 50% 50%);
         clip-path: circle(50% at 50% 50%);
+
 
         @include respond(tab-land) {
             width: 35rem;
