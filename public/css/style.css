@@ -166,7 +166,8 @@ body {
     @media only screen and (max-width: 30em) {
       .heading-primary--sub-2 {
         font-size: 1.5rem;
-        letter-spacing: 1rem; } }
+        letter-spacing: 1rem;
+        margin-bottom: -3rem; } }
 
 .u-center-text {
   text-align: center; }
@@ -179,20 +180,6 @@ body {
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
-
-.skills-icon {
-  width: 10%; }
-  @media only screen and (max-width: 75em) {
-    .skills-icon {
-      width: 5%; } }
-
-.skills-blinker {
-  width: 4rem;
-  margin-left: 1rem; }
-  @media only screen and (max-width: 30em) {
-    .skills-blinker {
-      margin-left: -1rem;
-      margin-top: -3.5rem; } }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -726,7 +713,8 @@ body {
     border-radius: 8px;
     animation: moveInRight 2s ease-out;
     animation-delay: 1.4s;
-    animation-fill-mode: both; }
+    animation-fill-mode: both;
+    margin-top: 3rem; }
     @media only screen and (max-width: 75em) {
       .header__right-menu {
         height: auto;
@@ -734,6 +722,14 @@ body {
     @media only screen and (max-width: 75em) {
       .header__right-menu--items {
         margin-left: 0; } }
+    .header__right-menu--skills-icon {
+      width: 10%; }
+      @media only screen and (max-width: 75em) {
+        .header__right-menu--skills-icon {
+          width: 5%; } }
+      @media only screen and (max-width: 30em) {
+        .header__right-menu--skills-icon {
+          width: 7%; } }
     .header__right-menu--technologies {
       margin-top: 1rem;
       animation: moveInRight 1s ease-out;

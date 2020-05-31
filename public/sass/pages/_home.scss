@@ -44,6 +44,7 @@
         animation: moveInRight 2s ease-out;
         animation-delay: 1.4s;
         animation-fill-mode: both;
+        margin-top: 3rem;
 
             @include respond(tab-land) {
                 height: auto;
@@ -55,6 +56,18 @@
 
             @include respond(tab-land) {
                 margin-left: 0;
+            }
+        }
+
+        &--skills-icon {
+            width: 10%;
+
+            @include respond(tab-land) {
+                width: 5%;
+            }
+
+            @include respond(phone) {
+                width: 7%;
             }
         }
 
