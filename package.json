@@ -4,14 +4,14 @@
   "description": "Portfolio",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass public/sass/main.scss public/css/style.css -w",
+    "watch:sass": "node-sass styling/sass/main.scss styling/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     
-    "compile:sass": "node-sass public/sass/main.scss public/css/style.comp.css",
-    "concat:css": "concat -o public/css/style.concat.css public/css/style.comp.css",
-    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' public/css/style.concat.css -o public/css/style.prefix.css ",
-    "compress:css": "node-sass public/css/style.prefix.css public/css/style.css --output-style compressed",
+    "compile:sass": "node-sass styling/sass/main.scss styling/css/style.comp.css",
+    "concat:css": "concat -o styling/css/style.concat.css styling/css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' styling/css/style.concat.css -o styling/css/style.prefix.css ",
+    "compress:css": "node-sass styling/css/style.prefix.css styling/css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css"
   },
   "repository": {
