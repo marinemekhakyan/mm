@@ -7,7 +7,6 @@
     "watch:sass": "node-sass styling/sass/main.scss styling/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
-    
     "compile:sass": "node-sass styling/sass/main.scss styling/css/style.comp.css",
     "concat:css": "concat -o styling/css/style.concat.css styling/css/style.comp.css",
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' styling/css/style.concat.css -o styling/css/style.prefix.css ",
@@ -27,7 +26,7 @@
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "concat": "^1.0.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1"
   }

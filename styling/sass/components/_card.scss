@@ -1,5 +1,4 @@
 .card {
-
     // FUNCTIONALITY
     perspective: 150rem;
     -moz-perspective: 150rem;
@@ -75,6 +74,15 @@
         @include respond(phone) {
             height: 20rem;
         }
+
+        &--0 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .1), 
+            rgba($color-white, .5)), 
+            url('../../../assets/foodoasis.jpg');
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+
+        }
         
         &--1 {
             background-image: linear-gradient(to right bottom, 
@@ -99,13 +107,13 @@
             url('../../../assets/popart.jpg');
         }
 
-        &--4 {
-            background-image: linear-gradient(to right bottom, 
-            rgba($color-white, .1), 
-            rgba($color-white, .5)), 
-            url('../../../assets/doable.gif');
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
-        }
+        // &--4 {
+        //     background-image: linear-gradient(to right bottom, 
+        //     rgba($color-white, .1), 
+        //     rgba($color-white, .5)), 
+        //     url('../../../assets/doable.gif');
+        //     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+        // }
     }
 
     &__heading {
