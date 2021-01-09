@@ -119,7 +119,7 @@
 .section__work {
     padding: 3rem;
     background-color: $color-background;
-    height: 100vh;
+    // height: 100vh;
         
         @include respond(tab-land) {
             height: auto;

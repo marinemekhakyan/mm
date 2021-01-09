@@ -458,6 +458,11 @@ body {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
     .card__picture--3 {
       background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url("../../../assets/popart.jpg"); }
+    .card__picture--5 {
+      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url("../../../assets/spu.jpg"); }
+    .card__picture--6 {
+      background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)), url("../../../assets/cta.jpg");
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); }
   .card__heading {
     font-size: 2rem;
     font-weight: 300;
@@ -754,8 +759,7 @@ body {
 
 .section__work {
   padding: 3rem;
-  background-color: #1d1d1d;
-  height: 100vh; }
+  background-color: #1d1d1d; }
   @media only screen and (max-width: 75em) {
     .section__work {
       height: auto; } }

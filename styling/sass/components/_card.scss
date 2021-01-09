@@ -114,6 +114,22 @@
         //     url('../../../assets/doable.gif');
         //     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
         // }
+
+        &--5 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .4), 
+            rgba($color-white, .8)),
+            url('../../../assets/spu.jpg');
+        }
+
+        &--6 {
+            background-image: linear-gradient(to right bottom, 
+            rgba($color-white, .4), 
+            rgba($color-white, .8)),
+            url('../../../assets/cta.jpg');
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+
+        }
     }
 
     &__heading {
@@ -149,7 +165,6 @@
     }
 
     &__details {
-        // padding: 3rem;
         color: $color-grey-dark;
 
         &--helpfull {
